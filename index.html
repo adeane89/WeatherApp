@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     </head>
         <body class="body">
-            <div class="card text-white mx-auto border-secondary mb-3" style="width: 24em; align-items: center; background-color: #414749">
+            <div class="card text-white border-secondary mb-3 mx-auto" style="width: auto; align-items: center; background-color: #414749">
               <div class="card-body">
                     <h5 class="card-title" style="font-size: 2em;">Weather</h5>
                 <form id="form"  onsubmit="return onSubmitForm()">
@@ -21,7 +21,11 @@
                   </p>
                     <div class = "title"></div>
                     <div class = "forecast"></div>
-              </div>
+                    <div id="results"></div>
+                </div>
+            </div>
+            <div class="card-deck">
+
             </div>
         <script src="https://code.jquery.com/jquery-3.3.1.js"
                 integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
