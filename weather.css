@@ -1,18 +1,13 @@
 .body{
-    background-color: whitesmoke;
+    background-image: url(mountain2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    height: 100%;
 }
 
-.card{
-    background: blue;
-    background: linear-gradient(#066AC8, #46A1F8)
-}
-
-body{
-  display:flex;
-  align-items:center;
-}
-
-html, body{
+html {
   height:100%;
 }
 
