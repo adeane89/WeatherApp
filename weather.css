@@ -1,0 +1,21 @@
+.body{
+    background-color: whitesmoke;
+}
+
+.card{
+    background: blue;
+    background: linear-gradient(#066AC8, #46A1F8)
+}
+
+body{
+  display:flex;
+  align-items:center;
+}
+
+html, body{
+  height:100%;
+}
+
+input:focus{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" type="text/css" href="weather.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    </head>
+    <body class="body">
+            <div class="card text-white bg-primary mb-3 mx-auto border-secondary mb-3" style="width: 25em; align-items: center">
+              <div class="card-body">
+                    <h5 class="card-title" style="font-size: 2em;">Weather</h5>
+                <form id="form"  onsubmit="return onSubmitForm()">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="text" name ="placeEntered" placeholder="Enter a location" required>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-light">Find</button>
+                </form>
+                <p class="card-text">
+                  </p>
+                    <div class= "title"></div>
+                    <div class = "forecast"></div>
+              </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous">
+        </script>
+        <script src="weather.js"></script>
+    </body>
+</html>
